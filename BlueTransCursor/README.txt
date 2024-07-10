@@ -1,0 +1,1 @@
+To install this cursor pack, right click 'install.inf' file and click install.

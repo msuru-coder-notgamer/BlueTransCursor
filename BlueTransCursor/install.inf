@@ -1,0 +1,51 @@
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur, Scheme.Txt
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+Scheme.Txt = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%unavailiable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%"
+
+[Scheme.Cur]
+Standard.ani
+Help.ani
+Work in Progress.ani
+Loading.ani
+Text Select.cur
+No.cur
+DragVertical.cur
+DragHorizontal.cur
+DragDiagonal1.cur
+DragDiagonal2.cur
+DragAny.ani
+Link.ani
+Pointer.ani
+Pen.cur
+Alternate.ani
+
+[Scheme.Txt]
+
+[Strings]
+CUR_DIR       = "Cursors\BlueTransCursor"
+SCHEME_NAME   = "BlueTransCursor"
+pointer       = "Standard.ani"
+help          = "Help.ani"
+work          = "Work in Progress.ani"
+busy          = "Loading.ani"
+text          = "Text Select.cur"
+unavailiable  = "No.cur"
+vert          = "DragVertical.cur"
+horz          = "DragHorizontal.cur"
+dgn1          = "DragDiagonal1.cur"
+dgn2          = "DragDiagonal2.cur"
+move          = "DragAny.ani"
+link          = "Link.ani"
+cross         = "Pointer.ani"
+hand          = "Pen.cur"
+alternate     = "Alternate.ani"
